@@ -1,0 +1,5 @@
+*.exe
+*.obj
+*.o
+build/
+SOLUCAO_PRIVADA.md
