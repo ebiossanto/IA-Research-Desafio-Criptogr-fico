@@ -155,19 +155,6 @@ int main(int argc, char *argv[]) {
         return 0;
     }
 
-    if (strcmp(argv[1], "check") == 0 && argc >= 3) {
-        if (strcmp(argv[2], "FLAG{cifrateste_spn_eh_um_bom_exemplo_de_cifra_de_bloco}") == 0) {
-            printf("CORRETO (Level 1)!\n");
-        } else if (strcmp(argv[2], "FLAG{key_schedule_cvb_pode_ser_invertido_se_voce_sabe_um_round_key}") == 0) {
-            printf("CORRETO (Level 2)!\n");
-        } else if (strcmp(argv[2], "FLAG{gf28_mix_columns_e_um_operador_linear_sobre_o_estado}") == 0) {
-            printf("CORRETO (Level 3)! Parabens, voce completou todos os niveis!\n");
-        } else {
-            printf("INCORRETO. Tente novamente.\n");
-        }
-        return 0;
-    }
-
     printf("Parametros invalidos. Use %s sem argumentos para ajuda.\n", argv[0]);
     return 1;
 }

@@ -145,14 +145,6 @@ int main(int argc, char *argv[]) {
         return 0;
     }
     
-    if (strcmp(argv[1], "check") == 0 && argc >= 3) {
-        if (strcmp(argv[2], "FLAG{sp3ctrum_1s_n0t_s0_s3cur3_wh3n_th3_1nv3rs3_c0nv3rg3s_b4dly}") == 0)
-            printf("CORRETO! Parabens!\n");
-        else
-            printf("INCORRETO. Tente novamente.\n");
-        return 0;
-    }
-    
     printf("Parametros invalidos. Use %s sem argumentos para ajuda.\n", argv[0]);
     return 1;
 }
