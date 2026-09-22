@@ -1,4 +1,4 @@
-# Desafio Criptográfico: SPECTRUM-1024 & CifraTeste-1024
+﻿# Desafio Criptográfico: SPECTRUM-1024 & CifraTeste-1024
 
 ## Sobre Este Projeto
 
@@ -6,7 +6,7 @@
 
 **Ferramentas utilizadas:** Gemini MiMo V2.5, GPT 5.6 Copilot, Opencode
 
-**Autor:** Euzebio Santos — Estudante, entusiasta e pesquisador
+**Autor:** Euzébio Soares dos Santos — Estudante, entusiasta e pesquisador
 
 ## Sobre Este Repositório
 
@@ -109,7 +109,7 @@ Todas as flags seguem: `FLAG{...}`
 
 ## Autor
 
-**Euzebio Santos** — Pesquisa em criptografia simétrica e matemática computacional.
+**Euzébio Soares dos Santos** — Pesquisa em criptografia simétrica e matemática computacional.
 
 ---
 
